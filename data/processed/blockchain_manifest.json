@@ -1,0 +1,65 @@
+{
+  "batch_id": "microgrid-phase3-batch-001",
+  "dataset": "data\\raw\\dc_measurements.csv",
+  "payload_format": "canonical JSON; CSV values preserved as strings",
+  "source_timestamp_semantics": "Simulation ingestion time, not verified sensor acquisition time",
+  "measurement_count": 6,
+  "contract_address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "chain_id": 31337,
+  "registrations": [
+    {
+      "batch_id": "microgrid-phase3-batch-001",
+      "measurement_index": 0,
+      "payload_hash": "0x05db0b1c2a0ab2ef96adc83308728b4f98375cefa7b9e3dba5cf85f80326a618",
+      "transaction_hash": "c4109a6b7ce9d6e3b38241ec914314bee92af88383126e4e96f3f1aa73b33f5e",
+      "block_number": 2,
+      "gas_used": 96536,
+      "account": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    },
+    {
+      "batch_id": "microgrid-phase3-batch-001",
+      "measurement_index": 1,
+      "payload_hash": "0x094fd46b3b6c234c2468d5759c78b6d36ef3232e475ee220b34e2608a11b8f68",
+      "transaction_hash": "76e98177ce740303bbfa5c898277c790e781628d8774f19054e5562df1c52fbb",
+      "block_number": 3,
+      "gas_used": 96548,
+      "account": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    },
+    {
+      "batch_id": "microgrid-phase3-batch-001",
+      "measurement_index": 2,
+      "payload_hash": "0x08238464571dd25de1ce88fcb40bf28ad0ccd0e43c51ab373b2e8fe8ed256021",
+      "transaction_hash": "c3d304677188db900b4f444264f617447f274a887388edf25f09b562df8e9fb3",
+      "block_number": 4,
+      "gas_used": 96548,
+      "account": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    },
+    {
+      "batch_id": "microgrid-phase3-batch-001",
+      "measurement_index": 3,
+      "payload_hash": "0x2242ebaa71e6e7c6e68af439ea0146f3330b201c23aa0f99f05cff1d8c1333dd",
+      "transaction_hash": "ceacff9a3f9c86f7b56ffadf2577eaa1e20b60ce91aa1f79e5dbb07e4d6f1364",
+      "block_number": 5,
+      "gas_used": 96548,
+      "account": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    },
+    {
+      "batch_id": "microgrid-phase3-batch-001",
+      "measurement_index": 4,
+      "payload_hash": "0x88a70c792b044b3fe2fe498396d8f689719004fe9a9230305effac00fe9c2ad5",
+      "transaction_hash": "faf261ea31f5543e6f5eeefd7d22771d3ff4aea283886cadfc627d7d69c54e80",
+      "block_number": 6,
+      "gas_used": 96536,
+      "account": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    },
+    {
+      "batch_id": "microgrid-phase3-batch-001",
+      "measurement_index": 5,
+      "payload_hash": "0x69d99152f5c639476d0dbf21c1059ac0dc261a7a84f65e4eea25a34360eec713",
+      "transaction_hash": "bab0a368593911dd8f9e907b9e0b9cbca1b2591e9f56f58bf075865244632ae5",
+      "block_number": 7,
+      "gas_used": 96548,
+      "account": "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+    }
+  ]
+}

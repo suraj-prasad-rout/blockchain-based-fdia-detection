@@ -1,0 +1,3 @@
+case,registered_payload,verification_of_original,verification_of_tampered,interpretation
+Modified after registration,original,True,False,Expected: tampered payload rejected
+Modified before registration,tampered,False,True,Expected: registered false payload still verifies

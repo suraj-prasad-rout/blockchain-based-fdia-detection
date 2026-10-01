@@ -1,0 +1,220 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "batchId",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint32",
+        "name": "measurementIndex",
+        "type": "uint32"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes32",
+        "name": "payloadHash",
+        "type": "bytes32"
+      },
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "submitter",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint64",
+        "name": "sourceTimestamp",
+        "type": "uint64"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint64",
+        "name": "recordedAt",
+        "type": "uint64"
+      }
+    ],
+    "name": "MeasurementRecorded",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "writer",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "authorized",
+        "type": "bool"
+      }
+    ],
+    "name": "WriterAuthorizationChanged",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "authorizedWriters",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "batchId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "measurementIndex",
+        "type": "uint32"
+      }
+    ],
+    "name": "getMeasurement",
+    "outputs": [
+      {
+        "internalType": "bytes32",
+        "name": "payloadHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "address",
+        "name": "submitter",
+        "type": "address"
+      },
+      {
+        "internalType": "uint64",
+        "name": "sourceTimestamp",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint64",
+        "name": "recordedAt",
+        "type": "uint64"
+      },
+      {
+        "internalType": "bool",
+        "name": "exists",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "batchId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "measurementIndex",
+        "type": "uint32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "payloadHash",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint64",
+        "name": "sourceTimestamp",
+        "type": "uint64"
+      }
+    ],
+    "name": "recordMeasurement",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "writer",
+        "type": "address"
+      },
+      {
+        "internalType": "bool",
+        "name": "authorized",
+        "type": "bool"
+      }
+    ],
+    "name": "setWriter",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes32",
+        "name": "batchId",
+        "type": "bytes32"
+      },
+      {
+        "internalType": "uint32",
+        "name": "measurementIndex",
+        "type": "uint32"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "payloadHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "verifyMeasurement",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

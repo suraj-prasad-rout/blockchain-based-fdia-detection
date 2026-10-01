@@ -1,0 +1,43 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node.js
+node_modules/
+dist/
+coverage/
+
+# Hardhat generated files
+cache/
+artifacts/build-info/
+artifacts/contracts/
+
+# Local tools and editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.backup
+# Personal AI tooling configuration
+.agents/
+.claude/
+AGENTS.md
+CLAUDE.md
+package.json.backup
+package-lock.json.backup

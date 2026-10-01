@@ -1,0 +1,2 @@
+scenario,rmse_rad,residual_statistic,threshold,detected
+clean_baseline,1.256505514106588e-05,1.700115146673662,5.991464547107979,False

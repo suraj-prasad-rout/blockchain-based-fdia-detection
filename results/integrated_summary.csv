@@ -1,0 +1,5 @@
+scenario,trials,mean_state_rmse_rad,residual_detection_rate,residual_false_positive_rate,blockchain_post_tamper_detection_rate,blockchain_clean_false_alarm_rate,combined_post_tamper_detection_rate,combined_clean_false_alarm_rate,pre_registered_attack_hash_acceptance_rate,clean_payload_rejection_rate_after_attack_registration
+clean,100,7.931018657300086e-06,,0.03,,0.0,,0.03,,
+random_attack,100,4.442827732579887e-05,0.91,,1.0,,1.0,,1.0,1.0
+targeted_attack,100,8.729518501557375e-05,0.03,,1.0,,1.0,,1.0,1.0
+model_consistent_attack,100,0.00010054271611040604,0.03,,1.0,,1.0,,1.0,1.0

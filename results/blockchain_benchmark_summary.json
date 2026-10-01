@@ -1,0 +1,14 @@
+{
+  "network": "Local Hardhat development chain",
+  "chain_id": 31337,
+  "contract_address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "trials": 30,
+  "submission_latency_median_ms": 21.388650000517373,
+  "submission_latency_p95_ms": 25.526900000841124,
+  "verification_latency_median_ms": 7.091550000041025,
+  "verification_latency_p95_ms": 9.718299999804003,
+  "mean_gas_used_per_registration": 96533.2,
+  "total_gas_used": 2895996,
+  "submission_throughput_per_second": 43.55315968010621,
+  "verification_success_rate": 1.0
+}

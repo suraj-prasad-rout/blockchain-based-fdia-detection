@@ -1,0 +1,16 @@
+# Microgrid simulation and numerical computation
+
+pandapower==3.5.5
+numpy==2.4.6
+scipy==1.17.1
+pandas==2.3.3
+matplotlib==3.11.2
+
+# Blockchain interaction and Solidity tooling
+
+web3==8.0.0
+py-solc-x==2.0.5
+
+# Testing
+
+pytest==9.1.1
