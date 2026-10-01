@@ -252,19 +252,6 @@ The integrated experiment runs 100 seeds and evaluates clean, random-attack, tar
 
 **Avoid duplicate registrations:** the integrated experiment uses fixed batch-ID prefixes. Run it once per fresh local chain unless you intentionally change the batch-ID prefixes or reset and redeploy the local chain. The contract rejects duplicate batch/index registrations.
 
-## Live demonstration guide
-
-For a teacher/external demonstration, rehearse this sequence before the presentation.
-
-1. **Show the simulated network and measurements.** Explain that this is a synthetic, software-based microgrid model rather than a physical hardware setup.
-2. **Explain WLS and residual detection.** Show how the estimated state is used to calculate a residual statistic and compare it with a threshold.
-3. **Show the contract deployment.** Point out the local Hardhat node, the deployed registry address, and the chain ID.
-4. **Demonstrate integrity verification.** Register a clean payload, verify the unchanged payload, and then verify a modified payload against the original registered reference. A changed payload should fail the reference-hash check.
-5. **Show the experimental outputs.** Open `results/integrated_detection_comparison.png`, `results/integrated_summary.csv`, and `results/integrated_residual_metrics.csv`.
-6. **State the limitation clearly.** A false payload registered first can verify against its own hash. Hash verification alone cannot determine whether the original measurement was physically true.
-
-The integrated experiment uses fixed batch IDs, so do not repeatedly run it against the same chain state. For a reliable live demo, prepare the local node and deployment beforehand and keep the saved result files available as a fallback.
-
 ## Results
 
 The following values are from the recorded 100-seed integrated experiment and local Hardhat benchmark. They describe this particular synthetic setup; they are not guarantees of performance on a real microgrid or production blockchain.
